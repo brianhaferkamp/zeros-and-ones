@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".article-list h4").on("click",function(){var t=$(this).attr("data-tab");$("#"+t).fadeIn()}),$(".article-close").on("click",function(){$(".article").fadeOut()})});
